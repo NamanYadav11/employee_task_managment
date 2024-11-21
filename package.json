@@ -1,0 +1,15 @@
+{
+  "name": "employee_task_tracker",
+  "version": "1.0.0",
+  "description": "To track task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd task && yarn install",
+    "dev": "cd task && yarn dev",
+    "build": "cd task && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
